@@ -1,0 +1,8 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+.hero {
+    background: url(./Images/homebg2.png) no-repeat center center;
+    background-size: cover;
+}
