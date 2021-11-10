@@ -84,12 +84,45 @@
                     <input type="text" class="form-control me-2" placeholder="Search GitHub">
                     <button class="btn btn-link text-light flex-shrink-0 me-2 text-decoration-none">Sign in</button>
                     <button class="btn btn-outline-light flex-shrink-0">Sign up</button>
+
+                <!-- Offcanvas max 922px -->
+                </div>
+                <button class="btn ms-2" data-bs-toggle="offcanvas" data-bs-target="#offcanvas">
+                    <img src="./images/menu.svg" alt="Menu Icon">
+                </button>
+                <div class="offcanvas offcanvas-end" id="offcanvas">
+                    <div class="offcanvas-header">
+                        <button class="btn-close" data-bs-dismiss="offcanvas"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="list-group list-group-flush mb-4">
+                            <li class="list-group-item">
+                                <a href="#">Personal</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="#">Open source</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="#">Business</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="#">Explorer</a>
+                            </li>
+                        </ul>
+                        <input type="text" class="form-control mb-2" placeholder="Search GitHub">
+                        <div class="d-grid mb-2">
+                            <button class="btn btn-outline-primary">Sign in</button>
+                        </div>
+                        <div class="d-grid">
+                            <button class="btn btn-primary">Sign up</button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </header>
         <div class="container">
             <div class="row">
-                <div class="col-7">
+                <div class="col-lg-7 col-12">
                     
                     <!-- Headline Content -->
                     <div class="headline">
@@ -99,7 +132,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-5">
+                <div class="col-lg-5 col-md-6 col-12">
 
                     <!-- Forms, Email address, Password, Sign Up Button -->
                     <form>
@@ -131,7 +164,7 @@
     <section class="features border-top border-bottom">
         <div class="container">
             <div class="row">
-                <div class="col-3">
+                <div class="col-lg-3 col-6">
                      <div class="card">
                         <img src="./images/features-build.png" alt="Build" class="card-img-top">
                         <div class="card-body text-center">
@@ -140,7 +173,7 @@
                         </div>
                      </div>
                 </div>
-                <div class="col-3">
+                <div class="col-lg-3 col-6">
                     <div class="card">
                         <img src="./images/features-work.png" alt="Work" class="card-img-top">
                         <div class="card-body text-center">
@@ -149,7 +182,7 @@
                         </div>
                      </div>
                 </div>
-                <div class="col-3">
+                <div class="col-lg-3 col-6">
                     <div class="card">
                         <img src="./images/features-projects.png" alt="Projects" class="card-img-top">
                         <div class="card-body text-center">
@@ -158,7 +191,7 @@
                         </div>
                      </div>
                 </div>
-                <div class="col-3">
+                <div class="col-lg-3 col-6">
                     <div class="card">
                         <img src="./images/features-platform.png" alt="Platform" class="card-img-top">
                         <div class="card-body text-center">
@@ -175,11 +208,11 @@
     <section class="map">
         <div class="container">
             <div class="row">
-                <div class="col-4">
+                <div class="col-lg-4 col-12">
                     <h1>Where is GitHub?</h1>
                     <p>GitHub is where people build software. More than 18 million people use GitHub to discover, fork, and contribute to over 48 million projects.</p>
                 </div>
-                <div class="col-8">
+                <div class="col-lg-8 col-12">
                     <div id="map" class="shadow"></div>
                 </div>
             </div>
@@ -192,10 +225,10 @@
         <div class="container">
             <img class="illustration" src="./images/footer-illustration.webp" alt="Illustration">
             <div class="row">
-                <div class="col-4">
+                <div class="col-lg-4 col-12">
                     <img class="logo" src="./images/footer-logo.svg" alt="Logo">
                 </div>
-                <div class="col-2">
+                <div class="col-lg-2 col-md-3 col-6">
                     <h5>Product</h5>
                     <ul class="list-unstyled">
                         <li><a href="#">Features</a></li>
@@ -209,7 +242,7 @@
                         <li><a href="#">Roadmap</a></li>
                     </ul>
                 </div>
-                <div class="col-2">
+                <div class="col-lg-2 col-md-3 col-6">
                     <h5>Platform</h5>
                     <ul class="list-unstyled">
                         <li><a href="#">Developer API</a></li>
@@ -219,7 +252,7 @@
                         <li><a href="#">GitHub Desktop</a></li>
                     </ul>
                 </div>
-                <div class="col-2">
+                <div class="col-lg-2 col-md-3 col-6">
                     <h5>Support</h5>
                     <ul class="list-unstyled">
                         <li><a href="#">Docs</a></li>
@@ -230,7 +263,7 @@
                         <li><a href="#">Contact GitHub</a></li>
                     </ul>
                 </div>
-                <div class="col-2">
+                <div class="col-lg-2 col-md-3 col-6">
                     <h5>Company</h5>
                     <ul class="list-unstyled">
                         <li><a href="#">About</a></li>
