@@ -1,0 +1,41 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  margin: 0px;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+}
+
+#header {
+  height: 150px;
+  background-color: lightgray;
+  margin-bottom: 10px;
+}
+
+.hero {
+}
+
+#contents {
+
+  height: 500px;
+  width: 700px;
+  background-color: lightgray;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  
+}
+
+#sidebar {
+
+  background-color: gray;
+  height: 500px;
+  width: 200px;
+}
+
+#footer {
+  height: 150px;
+  background-color: lightgray;
+}
